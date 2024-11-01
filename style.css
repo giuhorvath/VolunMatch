@@ -1,0 +1,1513 @@
+.pagina-inicial {
+  background-color: #ffffff;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  width: 100%;
+}
+
+.pagina-inicial .div {
+  background-color: #ffffff;
+  width: 1728px;
+  height: 3610px;
+  position: relative;
+}
+
+.pagina-inicial .overlap {
+  position: absolute;
+  width: 1728px;
+  height: 117px;
+  top: 0;
+  left: 0;
+  background-color: #538769;
+}
+
+.pagina-inicial .group {
+  position: absolute;
+  width: 32px;
+  height: 38px;
+  top: 54px;
+  left: 1649px;
+}
+
+.pagina-inicial .text-wrapper {
+  position: absolute;
+  top: 23px;
+  left: 0;
+  font-family: "Inter", Helvetica;
+  font-weight: 400;
+  color: #deeee8;
+  font-size: 12px;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.pagina-inicial .vector {
+  position: absolute;
+  width: 21px;
+  height: 21px;
+  top: 0;
+  left: 4px;
+}
+
+.pagina-inicial .navbar {
+  position: absolute;
+  width: 616px;
+  height: 22px;
+  top: 62px;
+  left: 985px;
+}
+
+.pagina-inicial .text-wrapper-2 {
+  position: absolute;
+  top: -1px;
+  left: 98px;
+  font-family: "Figtree", Helvetica;
+  font-weight: 600;
+  color: #deeee8;
+  font-size: 20px;
+  letter-spacing: 0;
+  line-height: normal;
+  white-space: nowrap;
+}
+
+.pagina-inicial .text-wrapper-3 {
+  left: 0;
+  position: absolute;
+  top: -1px;
+  font-family: "Figtree", Helvetica;
+  font-weight: 600;
+  color: #deeee8;
+  font-size: 20px;
+  letter-spacing: 0;
+  line-height: normal;
+  white-space: nowrap;
+}
+
+.pagina-inicial .text-wrapper-4 {
+  position: absolute;
+  top: -1px;
+  left: 307px;
+  font-family: "Figtree", Helvetica;
+  font-weight: 600;
+  color: #deeee8;
+  font-size: 20px;
+  letter-spacing: 0;
+  line-height: normal;
+  white-space: nowrap;
+}
+
+.pagina-inicial .text-wrapper-5 {
+  left: 467px;
+  position: absolute;
+  top: -1px;
+  font-family: "Figtree", Helvetica;
+  font-weight: 600;
+  color: #deeee8;
+  font-size: 20px;
+  letter-spacing: 0;
+  line-height: normal;
+  white-space: nowrap;
+}
+
+.pagina-inicial .text-wrapper-6 {
+  left: 576px;
+  position: absolute;
+  top: -1px;
+  font-family: "Figtree", Helvetica;
+  font-weight: 600;
+  color: #deeee8;
+  font-size: 20px;
+  letter-spacing: 0;
+  line-height: normal;
+  white-space: nowrap;
+}
+
+.pagina-inicial .logo {
+  position: absolute;
+  width: 235px;
+  height: 75px;
+  top: 22px;
+  left: 107px;
+}
+
+.pagina-inicial .img {
+  position: absolute;
+  width: 73px;
+  height: 75px;
+  top: 0;
+  left: 0;
+}
+
+.pagina-inicial .text-wrapper-7 {
+  position: absolute;
+  width: 150px;
+  top: 24px;
+  left: 85px;
+  font-family: "Figtree", Helvetica;
+  font-weight: 800;
+  color: #deeee8;
+  font-size: 24px;
+  letter-spacing: 0;
+  line-height: normal;
+  white-space: nowrap;
+}
+
+.pagina-inicial .inicial {
+  position: absolute;
+  width: 1728px;
+  height: 3491px;
+  top: 117px;
+  left: 0;
+  overflow: hidden;
+  overflow-y: scroll;
+}
+
+.pagina-inicial .overlap-group {
+  position: relative;
+  width: 1734px;
+  height: 3498px;
+  top: -5px;
+  left: -3px;
+}
+
+.pagina-inicial .div-2 {
+  position: absolute;
+  width: 1728px;
+  height: 3493px;
+  top: 5px;
+  left: 3px;
+  background-color: #f9f9f9;
+}
+
+.pagina-inicial .vector-2 {
+  position: absolute;
+  width: 1616px;
+  height: 1px;
+  top: 1033px;
+  left: 59px;
+  object-fit: cover;
+}
+
+.pagina-inicial .fa-a-parte-da-mudan {
+  position: absolute;
+  height: 42px;
+  top: 465px;
+  left: 461px;
+  font-family: "Figtree", Helvetica;
+  font-weight: 800;
+  color: #538769;
+  font-size: 40px;
+  text-align: center;
+  letter-spacing: 0;
+  line-height: 42.0px;
+  white-space: nowrap;
+}
+
+.pagina-inicial .rectangle {
+  position: absolute;
+  width: 1726px;
+  height: 441px;
+  top: 2799px;
+  left: 5px;
+  background-color: #9cccb9cc;
+}
+
+.pagina-inicial .text-wrapper-8 {
+  position: absolute;
+  top: 2849px;
+  left: 612px;
+  font-family: "Figtree", Helvetica;
+  font-weight: 800;
+  color: #538769;
+  font-size: 40px;
+  letter-spacing: 0;
+  line-height: normal;
+  white-space: nowrap;
+}
+
+.pagina-inicial .relatos-de-quem {
+  position: absolute;
+  top: 2190px;
+  left: 489px;
+  font-family: "Figtree", Helvetica;
+  font-weight: 800;
+  color: #538769;
+  font-size: 40px;
+  letter-spacing: 0;
+  line-height: normal;
+  white-space: nowrap;
+}
+
+.pagina-inicial .overlap-group-wrapper {
+  position: absolute;
+  width: 318px;
+  height: 358px;
+  top: 2315px;
+  left: 278px;
+}
+
+.pagina-inicial .overlap-group-2 {
+  position: relative;
+  width: 312px;
+  height: 358px;
+  background-color: #deeee8;
+  border-radius: 10px;
+}
+
+.pagina-inicial .p {
+  position: absolute;
+  width: 283px;
+  top: 77px;
+  left: 14px;
+  font-family: "Figtree", Helvetica;
+  font-weight: 300;
+  color: var(--preto);
+  font-size: 16px;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.pagina-inicial .image {
+  position: absolute;
+  width: 55px;
+  height: 55px;
+  top: 14px;
+  left: 14px;
+  object-fit: cover;
+}
+
+.pagina-inicial .text-wrapper-9 {
+  position: absolute;
+  top: 27px;
+  left: 79px;
+  font-family: "Figtree", Helvetica;
+  font-weight: 400;
+  color: var(--preto);
+  font-size: 24px;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.pagina-inicial .fi-rs-eye {
+  position: absolute;
+  width: 24px;
+  height: 24px;
+  top: 319px;
+  left: 21px;
+}
+
+.pagina-inicial .text-wrapper-10 {
+  position: absolute;
+  top: 322px;
+  left: 51px;
+  font-family: "Figtree", Helvetica;
+  font-weight: 400;
+  color: #000000;
+  font-size: 15px;
+  letter-spacing: 0;
+  line-height: normal;
+  white-space: nowrap;
+}
+
+.pagina-inicial .overlap-wrapper {
+  position: absolute;
+  width: 318px;
+  height: 358px;
+  top: 2315px;
+  left: 711px;
+}
+
+.pagina-inicial .div-wrapper {
+  position: absolute;
+  width: 318px;
+  height: 358px;
+  top: 2315px;
+  left: 1144px;
+}
+
+.pagina-inicial .fi-rs-angle-right-wrapper {
+  position: absolute;
+  width: 53px;
+  height: 53px;
+  top: 2469px;
+  left: 1489px;
+  background-color: #252e2b;
+  border-radius: 26.5px;
+}
+
+.pagina-inicial .fi-rs-angle-right {
+  position: absolute;
+  width: 30px;
+  height: 30px;
+  top: 12px;
+  left: 12px;
+}
+
+.pagina-inicial .img-wrapper {
+  position: absolute;
+  width: 53px;
+  height: 53px;
+  top: 2469px;
+  left: 192px;
+  background-color: #252e2b;
+  border-radius: 26.5px;
+  transform: rotate(180deg);
+}
+
+.pagina-inicial .fi-rs-angle-right-2 {
+  position: absolute;
+  width: 30px;
+  height: 30px;
+  top: 11px;
+  left: 12px;
+  transform: rotate(-180deg);
+}
+
+.pagina-inicial .text-wrapper-11 {
+  position: absolute;
+  width: 1508px;
+  height: 54px;
+  top: 1166px;
+  left: 113px;
+  font-family: "Plus Jakarta Sans", Helvetica;
+  font-weight: 500;
+  color: var(--azul-acinzentado);
+  font-size: 22px;
+  text-align: justify;
+  letter-spacing: 0;
+  line-height: 26.6px;
+}
+
+.pagina-inicial .text-wrapper-12 {
+  position: absolute;
+  top: 1106px;
+  left: 408px;
+  font-family: "Figtree", Helvetica;
+  font-weight: 800;
+  color: #538769;
+  font-size: 40px;
+  letter-spacing: 0;
+  line-height: normal;
+  white-space: nowrap;
+}
+
+.pagina-inicial .cultura {
+  position: absolute;
+  width: 344px;
+  height: 190px;
+  top: 1279px;
+  left: 135px;
+  background-image: url(https://c.animaapp.com/sxheUtTc/img/image-3@2x.png);
+  background-size: cover;
+  background-position: 50% 50%;
+}
+
+.pagina-inicial .educao {
+  position: absolute;
+  width: 344px;
+  height: 190px;
+  top: 1499px;
+  left: 135px;
+  background-image: url(https://c.animaapp.com/sxheUtTc/img/image-4@2x.png);
+  background-size: cover;
+  background-position: 50% 50%;
+}
+
+.pagina-inicial .esportes {
+  position: absolute;
+  width: 344px;
+  height: 190px;
+  top: 1279px;
+  left: 883px;
+  background-image: url(https://c.animaapp.com/sxheUtTc/img/image-5@2x.png);
+  background-size: cover;
+  background-position: 50% 50%;
+}
+
+.pagina-inicial .meio-ambiente {
+  position: absolute;
+  width: 344px;
+  height: 190px;
+  top: 1499px;
+  left: 883px;
+  background-image: url(https://c.animaapp.com/sxheUtTc/img/image-6@2x.png);
+  background-size: cover;
+  background-position: 50% 50%;
+}
+
+.pagina-inicial .proteo-aos-animais {
+  position: absolute;
+  width: 344px;
+  height: 190px;
+  top: 1499px;
+  left: 510px;
+  background-image: url(https://c.animaapp.com/sxheUtTc/img/image-7@2x.png);
+  background-size: cover;
+  background-position: 50% 50%;
+}
+
+.pagina-inicial .proteo-infncia {
+  position: absolute;
+  width: 344px;
+  height: 190px;
+  top: 1279px;
+  left: 1257px;
+  background-image: url(https://c.animaapp.com/sxheUtTc/img/image-8@2x.png);
+  background-size: cover;
+  background-position: 50% 50%;
+}
+
+.pagina-inicial .sade {
+  position: absolute;
+  width: 344px;
+  height: 190px;
+  top: 1499px;
+  left: 1257px;
+  background-image: url(https://c.animaapp.com/sxheUtTc/img/image-9@2x.png);
+  background-size: cover;
+  background-position: 50% 50%;
+}
+
+.pagina-inicial .tecnologia {
+  position: absolute;
+  width: 344px;
+  height: 190px;
+  top: 1279px;
+  left: 510px;
+  background-image: url(https://c.animaapp.com/sxheUtTc/img/image-10@2x.png);
+  background-size: cover;
+  background-position: 50% 50%;
+}
+
+.pagina-inicial .vector-3 {
+  position: absolute;
+  width: 1734px;
+  height: 344px;
+  top: 1794px;
+  left: 0;
+}
+
+.pagina-inicial .group-2 {
+  position: absolute;
+  width: 273px;
+  height: 207px;
+  top: 1863px;
+  left: 1224px;
+}
+
+.pagina-inicial .text-wrapper-13 {
+  position: absolute;
+  top: 0;
+  left: 111px;
+  font-family: "Figtree", Helvetica;
+  font-weight: 600;
+  color: #538769;
+  font-size: 100px;
+  letter-spacing: 0;
+  line-height: normal;
+  white-space: nowrap;
+}
+
+.pagina-inicial .PLANETA-PARA-CUIDAR {
+  position: absolute;
+  width: 269px;
+  top: 121px;
+  left: 0;
+  font-family: "Figtree", Helvetica;
+  font-weight: 600;
+  color: #252e2b;
+  font-size: 36px;
+  text-align: center;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.pagina-inicial .group-3 {
+  position: absolute;
+  width: 326px;
+  height: 207px;
+  top: 1863px;
+  left: 702px;
+}
+
+.pagina-inicial .text-wrapper-14 {
+  position: absolute;
+  top: 0;
+  left: 0;
+  font-family: "Figtree", Helvetica;
+  font-weight: 600;
+  color: #538769;
+  font-size: 100px;
+  letter-spacing: 0;
+  line-height: normal;
+  white-space: nowrap;
+}
+
+.pagina-inicial .text-wrapper-15 {
+  position: absolute;
+  width: 297px;
+  top: 121px;
+  left: 25px;
+  font-family: "Figtree", Helvetica;
+  font-weight: 600;
+  color: #252e2b;
+  font-size: 36px;
+  text-align: center;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.pagina-inicial .group-4 {
+  position: absolute;
+  width: 265px;
+  height: 207px;
+  top: 1863px;
+  left: 241px;
+}
+
+.pagina-inicial .text-wrapper-16 {
+  position: absolute;
+  width: 248px;
+  top: 121px;
+  left: 13px;
+  font-family: "Figtree", Helvetica;
+  font-weight: 600;
+  color: #252e2b;
+  font-size: 36px;
+  text-align: center;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.pagina-inicial .group-5 {
+  position: absolute;
+  width: 1104px;
+  height: 256px;
+  top: 2922px;
+  left: 316px;
+}
+
+.pagina-inicial .overlap-2 {
+  position: relative;
+  height: 256px;
+}
+
+.pagina-inicial .fundo-branco-logo {
+  position: absolute;
+  width: 1104px;
+  height: 237px;
+  top: 19px;
+  left: 0;
+}
+
+.pagina-inicial .group-6 {
+  position: absolute;
+  width: 528px;
+  height: 50px;
+  top: 187px;
+  left: 288px;
+}
+
+.pagina-inicial .image-2 {
+  position: absolute;
+  width: 120px;
+  height: 50px;
+  top: 0;
+  left: 0;
+  background-color: #fcfffe;
+  border-radius: 9px;
+}
+
+.pagina-inicial .image-3 {
+  position: absolute;
+  width: 120px;
+  height: 50px;
+  top: 0;
+  left: 408px;
+  background-color: #fcfffe;
+  border-radius: 9px;
+}
+
+.pagina-inicial .image-4 {
+  position: absolute;
+  width: 120px;
+  height: 50px;
+  top: 0;
+  left: 272px;
+  background-color: #fcfffe;
+  border-radius: 9px;
+}
+
+.pagina-inicial .image-5 {
+  position: absolute;
+  width: 120px;
+  height: 50px;
+  top: 0;
+  left: 136px;
+  background-color: #fcfffe;
+  border-radius: 9px;
+}
+
+.pagina-inicial .group-7 {
+  position: absolute;
+  width: 764px;
+  height: 60px;
+  top: 97px;
+  left: 170px;
+}
+
+.pagina-inicial .image-6 {
+  position: absolute;
+  width: 140px;
+  height: 60px;
+  top: 0;
+  left: 0;
+  background-color: #fcfffe;
+  border-radius: 9px;
+}
+
+.pagina-inicial .image-7 {
+  position: absolute;
+  width: 140px;
+  height: 60px;
+  top: 0;
+  left: 468px;
+  background-color: #fcfffe;
+  border-radius: 9px;
+}
+
+.pagina-inicial .image-8 {
+  position: absolute;
+  width: 140px;
+  height: 60px;
+  top: 0;
+  left: 624px;
+  background-color: #fcfffe;
+  border-radius: 9px;
+}
+
+.pagina-inicial .image-9 {
+  position: absolute;
+  width: 140px;
+  height: 60px;
+  top: 0;
+  left: 156px;
+  background-color: #fcfffe;
+  border-radius: 9px;
+}
+
+.pagina-inicial .image-10 {
+  position: absolute;
+  width: 140px;
+  height: 60px;
+  top: 0;
+  left: 312px;
+  background-color: #fcfffe;
+  border-radius: 9px;
+}
+
+.pagina-inicial .group-8 {
+  position: absolute;
+  width: 1104px;
+  height: 67px;
+  top: 0;
+  left: 0;
+}
+
+.pagina-inicial .image-wrapper {
+  position: absolute;
+  width: 170px;
+  height: 66px;
+  top: 1px;
+  left: 0;
+  background-color: #fcfffe;
+  border-radius: 9px;
+}
+
+.pagina-inicial .image-11 {
+  height: 66px;
+  background-color: #fcfffe;
+  border-radius: 9px;
+}
+
+.pagina-inicial .image-12 {
+  position: absolute;
+  width: 170px;
+  height: 66px;
+  top: 0;
+  left: 933px;
+  background-color: #fcfffe;
+  border-radius: 9px;
+}
+
+.pagina-inicial .image-13 {
+  position: absolute;
+  width: 170px;
+  height: 66px;
+  top: 1px;
+  left: 747px;
+  background-color: #fcfffe;
+  border-radius: 9px;
+}
+
+.pagina-inicial .image-14 {
+  position: absolute;
+  width: 170px;
+  height: 66px;
+  top: 1px;
+  left: 560px;
+  background-color: #fcfffe;
+  border-radius: 9px;
+}
+
+.pagina-inicial .image-15 {
+  position: absolute;
+  width: 170px;
+  height: 66px;
+  top: 1px;
+  left: 373px;
+  background-color: #fcfffe;
+  border-radius: 9px;
+}
+
+.pagina-inicial .image-16 {
+  position: absolute;
+  width: 170px;
+  height: 66px;
+  top: 1px;
+  left: 187px;
+  background-color: #fcfffe;
+  border-radius: 9px;
+}
+
+.pagina-inicial .logos-PNG {
+  position: absolute;
+  width: 1071px;
+  height: 252px;
+  top: 0;
+  left: 3px;
+}
+
+.pagina-inicial .group-9 {
+  position: absolute;
+  width: 923px;
+  height: 232px;
+  top: 20px;
+  left: 0;
+}
+
+.pagina-inicial .overlap-group-3 {
+  position: relative;
+  height: 232px;
+}
+
+.pagina-inicial .group-10 {
+  position: absolute;
+  width: 739px;
+  height: 151px;
+  top: 0;
+  left: 177px;
+}
+
+.pagina-inicial .image-17 {
+  position: absolute;
+  width: 126px;
+  height: 49px;
+  top: 102px;
+  left: 0;
+}
+
+.pagina-inicial .image-18 {
+  position: absolute;
+  width: 170px;
+  height: 66px;
+  top: 0;
+  left: 569px;
+}
+
+.pagina-inicial .image-19 {
+  position: absolute;
+  width: 115px;
+  height: 44px;
+  top: 104px;
+  left: 318px;
+}
+
+.pagina-inicial .group-11 {
+  position: absolute;
+  width: 582px;
+  height: 128px;
+  top: 103px;
+  left: 341px;
+}
+
+.pagina-inicial .image-20 {
+  position: absolute;
+  width: 110px;
+  height: 43px;
+  top: 1px;
+  left: 0;
+}
+
+.pagina-inicial .image-21 {
+  position: absolute;
+  width: 101px;
+  height: 39px;
+  top: 89px;
+  left: 228px;
+}
+
+.pagina-inicial .image-22 {
+  position: absolute;
+  width: 98px;
+  height: 38px;
+  top: 89px;
+  left: 366px;
+  object-fit: cover;
+}
+
+.pagina-inicial .image-23 {
+  position: absolute;
+  width: 116px;
+  height: 45px;
+  top: 1px;
+  left: 309px;
+}
+
+.pagina-inicial .image-24 {
+  position: absolute;
+  width: 118px;
+  height: 46px;
+  top: 0;
+  left: 464px;
+}
+
+.pagina-inicial .group-12 {
+  position: absolute;
+  width: 727px;
+  height: 232px;
+  top: 0;
+  left: 0;
+}
+
+.pagina-inicial .image-25 {
+  position: absolute;
+  width: 170px;
+  height: 66px;
+  top: 0;
+  left: 0;
+  object-fit: cover;
+}
+
+.pagina-inicial .image-26 {
+  position: absolute;
+  width: 102px;
+  height: 39px;
+  top: 192px;
+  left: 433px;
+}
+
+.pagina-inicial .image-27 {
+  position: absolute;
+  width: 163px;
+  height: 63px;
+  top: 2px;
+  left: 564px;
+}
+
+.pagina-inicial .image-28 {
+  position: absolute;
+  width: 164px;
+  height: 64px;
+  top: 1px;
+  left: 376px;
+}
+
+.pagina-inicial .image-29 {
+  position: absolute;
+  width: 106px;
+  height: 41px;
+  top: 191px;
+  left: 295px;
+}
+
+.pagina-inicial .image-30 {
+  position: absolute;
+  width: 154px;
+  height: 60px;
+  top: 3px;
+  left: 195px;
+}
+
+.pagina-inicial .image-31 {
+  position: absolute;
+  width: 105px;
+  height: 105px;
+  top: 0;
+  left: 966px;
+  object-fit: cover;
+}
+
+.pagina-inicial .group-13 {
+  position: absolute;
+  width: 1728px;
+  height: 267px;
+  top: 3231px;
+  left: 3px;
+  background-color: #538769;
+}
+
+.pagina-inicial .group-14 {
+  position: absolute;
+  width: 180px;
+  height: 140px;
+  top: 64px;
+  left: 344px;
+}
+
+.pagina-inicial .group-15 {
+  position: absolute;
+  width: 80px;
+  height: 82px;
+  top: 0;
+  left: 50px;
+}
+
+.pagina-inicial .group-16 {
+  position: absolute;
+  width: 180px;
+  height: 31px;
+  top: 109px;
+  left: 0;
+}
+
+.pagina-inicial .group-wrapper {
+  position: absolute;
+  width: 30px;
+  height: 30px;
+  top: 0;
+  left: 0;
+}
+
+.pagina-inicial .group-17 {
+  position: relative;
+  height: 30px;
+  background-color: #252e2b;
+  border-radius: 15px;
+}
+
+.pagina-inicial .group-18 {
+  position: absolute;
+  width: 18px;
+  height: 18px;
+  top: 6px;
+  left: 6px;
+}
+
+.pagina-inicial .group-19 {
+  position: absolute;
+  width: 30px;
+  height: 30px;
+  top: 0;
+  left: 50px;
+  background-color: #252e2b;
+  border-radius: 15px;
+}
+
+.pagina-inicial .group-20 {
+  position: absolute;
+  width: 20px;
+  height: 20px;
+  top: 5px;
+  left: 5px;
+}
+
+.pagina-inicial .group-21 {
+  position: absolute;
+  width: 30px;
+  height: 30px;
+  top: 0;
+  left: 100px;
+  background-color: #252e2b;
+  border-radius: 15px;
+}
+
+.pagina-inicial .vector-wrapper {
+  position: absolute;
+  width: 30px;
+  height: 31px;
+  top: 0;
+  left: 150px;
+  background-color: #252e2b;
+  border-radius: 15px / 15.5px;
+}
+
+.pagina-inicial .vector-4 {
+  position: absolute;
+  width: 21px;
+  height: 15px;
+  top: 8px;
+  left: 5px;
+}
+
+.pagina-inicial .group-22 {
+  position: absolute;
+  width: 696px;
+  height: 211px;
+  top: 28px;
+  left: 662px;
+}
+
+.pagina-inicial .group-23 {
+  position: absolute;
+  width: 207px;
+  height: 58px;
+  top: 136px;
+  left: 0;
+}
+
+.pagina-inicial .email-apoieacausa {
+  position: absolute;
+  top: 24px;
+  left: 0;
+  font-family: "Figtree", Helvetica;
+  font-weight: 400;
+  color: #deeee8;
+  font-size: 12px;
+  letter-spacing: 0;
+  line-height: 17px;
+}
+
+.pagina-inicial .text-wrapper-17 {
+  position: absolute;
+  top: 0;
+  left: 0;
+  font-family: "Figtree", Helvetica;
+  font-weight: 700;
+  color: #deeee8;
+  font-size: 16px;
+  letter-spacing: 0;
+  line-height: normal;
+  white-space: nowrap;
+}
+
+.pagina-inicial .group-24 {
+  position: absolute;
+  width: 123px;
+  height: 75px;
+  top: 0;
+  left: 238px;
+}
+
+.pagina-inicial .text-wrapper-18 {
+  position: absolute;
+  width: 119px;
+  top: 24px;
+  left: 0;
+  font-family: "Figtree", Helvetica;
+  font-weight: 400;
+  color: #deeee8;
+  font-size: 12px;
+  letter-spacing: 0;
+  line-height: 17px;
+}
+
+.pagina-inicial .group-25 {
+  position: absolute;
+  width: 123px;
+  height: 109px;
+  top: 0;
+  left: 0;
+}
+
+.pagina-inicial .group-26 {
+  position: absolute;
+  width: 167px;
+  height: 75px;
+  top: 136px;
+  left: 238px;
+}
+
+.pagina-inicial .descubra-o {
+  position: absolute;
+  width: 163px;
+  top: 24px;
+  left: 0;
+  font-family: "Figtree", Helvetica;
+  font-weight: 400;
+  color: #deeee8;
+  font-size: 12px;
+  letter-spacing: 0;
+  line-height: 17px;
+}
+
+.pagina-inicial .group-27 {
+  position: absolute;
+  width: 264px;
+  height: 160px;
+  top: 0;
+  left: 436px;
+}
+
+.pagina-inicial .trabalho {
+  position: absolute;
+  width: 260px;
+  top: 24px;
+  left: 0;
+  font-family: "Figtree", Helvetica;
+  font-weight: 400;
+  color: #deeee8;
+  font-size: 12px;
+  letter-spacing: 0;
+  line-height: 17px;
+}
+
+.pagina-inicial .banner {
+  position: absolute;
+  width: 1731px;
+  height: 425px;
+  top: 0;
+  left: 1px;
+}
+
+.pagina-inicial .div-3 {
+  position: absolute;
+  width: 1735px;
+  height: 371px;
+  top: 0;
+  left: 0;
+}
+
+.pagina-inicial .overlap-group-4 {
+  position: relative;
+  width: 1731px;
+  height: 371px;
+}
+
+.pagina-inicial .fron {
+  position: absolute;
+  width: 296px;
+  height: 251px;
+  top: 114px;
+  left: 613px;
+}
+
+.pagina-inicial .vector-5 {
+  position: absolute;
+  width: 1731px;
+  height: 367px;
+  top: 4px;
+  left: 0;
+}
+
+.pagina-inicial .text-wrapper-19 {
+  position: absolute;
+  width: 572px;
+  height: 38px;
+  top: 85px;
+  left: 178px;
+  font-family: "Figtree", Helvetica;
+  font-weight: 800;
+  color: #538769;
+  font-size: 36px;
+  text-align: center;
+  letter-spacing: 0;
+  line-height: 37.8px;
+}
+
+.pagina-inicial .text-wrapper-20 {
+  position: absolute;
+  width: 450px;
+  height: 50px;
+  top: 139px;
+  left: 239px;
+  font-family: "Figtree", Helvetica;
+  font-weight: 700;
+  color: #000000;
+  font-size: 24px;
+  text-align: center;
+  letter-spacing: 0;
+  line-height: 25.2px;
+}
+
+.pagina-inicial .quero-voluntariar {
+  position: absolute;
+  width: 370px;
+  height: 72px;
+  top: 221px;
+  left: 279px;
+  background-color: #538769;
+  border-radius: 15px;
+}
+
+.pagina-inicial .text-wrapper-21 {
+  position: absolute;
+  width: 268px;
+  top: 16px;
+  left: 23px;
+  font-family: "Figtree", Helvetica;
+  font-weight: 600;
+  color: #fcfffe;
+  font-size: 32px;
+  text-align: center;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.pagina-inicial .vector-6 {
+  position: absolute;
+  width: 34px;
+  height: 29px;
+  top: 21px;
+  left: 312px;
+}
+
+.pagina-inicial .image-32 {
+  position: absolute;
+  width: 853px;
+  height: 352px;
+  top: 4px;
+  left: 878px;
+  object-fit: cover;
+}
+
+.pagina-inicial .image-33 {
+  position: absolute;
+  width: 160px;
+  height: 238px;
+  top: 0;
+  left: 0;
+}
+
+.pagina-inicial .group-28 {
+  left: 24px;
+  transform: rotate(180deg);
+  position: absolute;
+  width: 53px;
+  height: 53px;
+  top: 169px;
+  background-color: #252e2b;
+  border-radius: 26.5px;
+}
+
+.pagina-inicial .group-29 {
+  left: 1653px;
+  position: absolute;
+  width: 53px;
+  height: 53px;
+  top: 169px;
+  background-color: #252e2b;
+  border-radius: 26.5px;
+}
+
+.pagina-inicial .ellipse {
+  left: 831px;
+  background-color: #538769;
+  position: absolute;
+  width: 19px;
+  height: 19px;
+  top: 406px;
+  border-radius: 9.5px;
+}
+
+.pagina-inicial .ellipse-2 {
+  left: 880px;
+  background-color: #deeee8;
+  position: absolute;
+  width: 19px;
+  height: 19px;
+  top: 406px;
+  border-radius: 9.5px;
+}
+
+.pagina-inicial .group-30 {
+  position: absolute;
+  width: 1382px;
+  height: 383px;
+  top: 565px;
+  left: 178px;
+}
+
+.pagina-inicial .overlap-3 {
+  position: absolute;
+  width: 436px;
+  height: 383px;
+  top: 0;
+  left: 0;
+  background-color: #deeee880;
+  border-radius: 15px;
+}
+
+.pagina-inicial .group-31 {
+  position: relative;
+  width: 280px;
+  height: 280px;
+  top: 52px;
+  left: 79px;
+}
+
+.pagina-inicial .cadastre-se {
+  position: absolute;
+  height: 42px;
+  top: 238px;
+  left: 0;
+  font-family: "Figtree", Helvetica;
+  font-weight: 800;
+  color: #538769;
+  font-size: 40px;
+  text-align: center;
+  letter-spacing: 0;
+  line-height: 42.0px;
+  white-space: nowrap;
+}
+
+.pagina-inicial .vector-7 {
+  position: absolute;
+  width: 191px;
+  height: 191px;
+  top: 0;
+  left: 44px;
+}
+
+.pagina-inicial .overlap-4 {
+  position: absolute;
+  width: 436px;
+  height: 383px;
+  top: 0;
+  left: 471px;
+  background-color: #deeee880;
+  border-radius: 15px;
+}
+
+.pagina-inicial .d-matches {
+  position: absolute;
+  height: 42px;
+  top: 290px;
+  left: 95px;
+  font-family: "Figtree", Helvetica;
+  font-weight: 800;
+  color: #538769;
+  font-size: 40px;
+  text-align: center;
+  letter-spacing: 0;
+  line-height: 42.0px;
+  white-space: nowrap;
+}
+
+.pagina-inicial .vector-8 {
+  position: absolute;
+  width: 191px;
+  height: 191px;
+  top: 52px;
+  left: 139px;
+}
+
+.pagina-inicial .overlap-5 {
+  position: absolute;
+  width: 436px;
+  height: 383px;
+  top: 0;
+  left: 942px;
+  background-color: #deeee880;
+  border-radius: 15px;
+}
+
+.pagina-inicial .conecte-se {
+  position: absolute;
+  height: 42px;
+  top: 290px;
+  left: 90px;
+  font-family: "Figtree", Helvetica;
+  font-weight: 800;
+  color: #538769;
+  font-size: 40px;
+  text-align: center;
+  letter-spacing: 0;
+  line-height: 42.0px;
+  white-space: nowrap;
+}
+
+.pagina-inicial .vector-9 {
+  position: absolute;
+  width: 191px;
+  height: 191px;
+  top: 52px;
+  left: 122px;
+}
+
+
+/* General layout adjustments for responsive design */
+
+.pagina-inicial {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+  padding: 0 10px; /* Add padding to avoid edge overlap on smaller screens */
+}
+
+/* Set a maximum width for large screens */
+.pagina-inicial .div {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+/* Responsive typography and layout adjustments for tablets and medium screens */
+@media (max-width: 1200px) {
+  .pagina-inicial .div {
+      width: 90%;
+  }
+  .pagina-inicial .text-wrapper, 
+  .pagina-inicial .text-wrapper-2, 
+  .pagina-inicial .text-wrapper-3,
+  .pagina-inicial .text-wrapper-4,
+  .pagina-inicial .text-wrapper-5,
+  .pagina-inicial .text-wrapper-6 {
+      font-size: 1rem; /* Responsive font size */
+  }
+  .pagina-inicial .img, 
+  .pagina-inicial .logo {
+      width: 50px;
+      height: 50px;
+  }
+  .pagina-inicial .banner {
+      flex-direction: column; /* Stack layout vertically */
+  }
+}
+
+/* Small screens (smartphones) */
+@media (max-width: 768px) {
+  .pagina-inicial .div {
+      width: 100%;
+  }
+  .pagina-inicial .text-wrapper, 
+  .pagina-inicial .text-wrapper-2, 
+  .pagina-inicial .text-wrapper-3,
+  .pagina-inicial .text-wrapper-4,
+  .pagina-inicial .text-wrapper-5,
+  .pagina-inicial .text-wrapper-6 {
+      font-size: 0.9rem; /* Smaller font size for mobile */
+  }
+  .pagina-inicial .img, 
+  .pagina-inicial .logo {
+      width: 40px;
+      height: 40px;
+  }
+  .pagina-inicial .cultura,
+  .pagina-inicial .educao,
+  .pagina-inicial .esportes {
+      width: 100%;
+      height: auto;
+      margin-bottom: 10px;
+  }
+  .pagina-inicial .text-wrapper {
+      text-align: center;
+  }
+  /* Stack sections vertically and add spacing */
+  .pagina-inicial .navbar,
+  .pagina-inicial .overlap-group {
+      flex-direction: column;
+      align-items: center;
+  }
+}
