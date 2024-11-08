@@ -1,0 +1,840 @@
+@import url('https://fonts.googleapis.com/css2?family=Figtree:ital,wght@0,300..900;1,300..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Figtree:ital,wght@0,300..900;1,300..900&family=Plus+Jakarta+Sans:ital,wght@0,200..800;1,200..800&display=swap');
+
+
+body{
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 100%;
+}
+
+.headMenu{
+    display: flex;
+    height: 100px;
+    justify-content:space-between;
+    justify-items: center;
+    background-color: #538769;
+  
+}
+
+.texto-menu
+{
+    max-width: 50%;
+    margin: auto;
+    font-family: "Figtree", Helvetica;
+    font-weight: 600;
+    color: #deeee8;
+    font-size: 18px;
+    line-height: normal;
+    white-space: nowrap;  
+    text-decoration: none 
+}
+
+.NavBetween{
+    width: 20%;
+}
+
+
+.navbar
+{
+    display:flex;
+    justify-content: flex-end;
+    justify-items: center;
+    width: 50%;
+}
+
+.logo
+{
+    display:flex;
+    align-items: center;
+    margin-left: 3%;
+    width: 15%;
+  
+     
+}
+
+.img-logo
+{
+    width: 100%
+    
+      
+}
+
+.img-idioma
+{
+    right: 10px;
+    width: 100%
+
+    
+}
+
+.text-container {
+    display: flex;
+    justify-content: center; 
+    align-items: center;     
+    margin-top: 20px;     
+}
+
+.h1 {
+    font-family: "Figtree", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 700;
+    font-style: normal;
+    color: #538769;
+    text-align: center;
+}
+
+.p {
+    font-family: "Plus Jakarta Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 500;
+    font-style: normal;
+    color: #4B545B;
+}
+
+/* Página apoie */
+
+* 
+{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.header-section 
+{
+  background-color: #F4F9F4;
+  text-align: center;
+  padding: 3% 15%;
+}
+
+.header-section h1 
+{
+  font-size: 2em;
+  color: #538769;
+  margin-bottom: 15px;
+  font-family: Figtree;
+  font-weight: 600; 
+}
+
+.header-section p 
+{
+  font-size: 1.0em;
+  color: #666666;
+  margin: 0 auto;
+  font-family: "Plus Jakarta Sans", sans-serif;
+  font-weight: 500;
+  font-style: normal;
+}
+
+.content-section 
+{
+  padding: 40px 20px;
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+  align-items: center;
+}
+
+.content-box 
+{
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  gap: 40px;
+  align-items: flex-start;
+  border-radius: 10px;
+  padding: 20px;
+}
+
+.content-box img 
+{
+  width: 30%;
+  height: auto;
+  border-radius: 10px;
+  object-fit: cover;
+}
+
+.content-text 
+{
+  width: 80%;
+}
+
+.content-text h2 
+{
+  color: #538769;
+  font-size: 1.8em;
+  margin-bottom: 10px;
+  font-family: "Figtree", sans-serif;
+  font-weight: 600;
+  text-align: center;
+}
+
+.content-text p 
+{
+  font-size: 1em;
+  margin-bottom: 15px;
+  display: flex;
+  text-align: justify;
+  color: #666666;
+  font-family: "Plus Jakarta Sans";
+  font-weight: 500;
+}
+
+.button-apoie
+{
+  width: 330px;
+  height: 5vw;
+  background-color: #538769;
+  color: #FCFFFE;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+  text-decoration: none;
+  margin-top: 30px;
+  margin-bottom: 20px;
+  font-family: "Figtree", sans-serif;
+  font-weight: 600;
+  font-size: 25px;
+}
+
+.button:hover 
+{
+  background-color: #436552;
+}
+
+/* Alterna a posição de imagem e texto */
+.alternate 
+{
+  flex-direction: row-reverse;
+}
+
+/* Responsividade */
+@media (max-width: 768px) 
+{
+  .content-box {
+      flex-direction: column;
+      text-align: center;
+  }
+
+  .content-box img, .content-text {
+      width: 100%;
+  }
+}
+
+/* Fim da pagina apoie */
+
+
+
+/* Inicio página vagas */
+
+.container {
+  display: flex;
+  gap: 20px;
+  width: 100%;
+  max-width: 1200px;
+}
+
+/* Sidebar */
+.sidebar {
+  width: 300px;
+  padding: 20px;
+  background-color: #fff;
+  border-radius: 8px;
+}
+
+.search-bar {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 20px;
+}
+
+.filter-group {
+  margin-bottom: 20px;
+}
+
+.filter-group h3 {
+  font-size: 16px;
+  margin-bottom: 10px;
+}
+
+.filter-group label {
+  display: block;
+  margin-bottom: 5px;
+}
+
+.show-more {
+  background: none;
+  border: none;
+  color: #007BFF;
+  cursor: pointer;
+  font-size: 14px;
+  text-decoration: underline;
+}
+
+.additional-filters {
+  display: none;
+}
+
+/* Main Content */
+.main-content {
+  flex: 1;
+  padding: 20px;
+}
+
+.main-content h1 {
+  font-size: 24px;
+  margin-bottom: 20px;
+}
+
+/* Opportunities */
+.opportunities {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+  gap: 20px;
+}
+
+.opportunity-card {
+  background-color: #fff;
+  border-radius: 8px;
+  overflow: hidden;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  text-align: center;
+  padding: 10px;
+}
+
+.opportunity-card img {
+  width: 100%;
+  height: 150px;
+  object-fit: cover;
+}
+
+.opportunity-card h2 {
+  font-size: 18px;
+  margin: 10px 0;
+}
+
+.opportunity-card p {
+  font-size: 14px;
+  color: #555;
+}
+
+.details {
+  font-size: 12px;
+  color: #777;
+  margin-top: 10px;
+}
+
+/* Botão Ver Mais Vagas */
+.load-more {
+  background-color: #007BFF;
+  color: #fff;
+  border: none;
+  padding: 10px 20px;
+  font-size: 16px;
+  border-radius: 5px;
+  cursor: pointer;
+  width: 100%;
+  margin-top: 20px;
+}
+
+
+/* Fim página vagas */
+
+
+
+
+/* Página como funciona   */
+
+.conteiner
+{
+  display: flex; /* Organiza os itens na horizontal */
+  align-items: flex-start; /* Alinha o conteúdo verticalmente ao topo */
+  margin: 20px;
+  margin-top: 75px;
+}
+
+.conteiner2
+{
+  display: flex;
+  flex-direction: column; /* Organiza o título e o parágrafo na vertical */
+  max-width: 60%; /* Ajusta o tamanho do texto */
+  margin-left: 15%;
+}
+
+.texto-comofunciona 
+{
+  display: flex;
+  text-align: center;
+  font-family: "Plus Jakarta Sans", sans-serif;
+  font-weight: 500;
+  color: #4B545B;
+  margin-left: 20%;
+  margin-right: 20%;
+}
+
+.texto-titulocomofun
+{
+  color: #538769;
+  font-family: Figtree;
+  font-size: 30px;
+  font-weight: 700;
+  margin: 0; /* Remove margem do título */
+}
+
+.img-funciona
+{
+  width: 100%;
+  flex-shrink: 0;
+}
+
+.paragrafo 
+{
+  font-family: "Plus Jakarta Sans", sans-serif;
+  font-weight: 500;
+  color: #4B545B;
+  text-align: justify;
+  margin-top: 10px; /* Dá um pequeno espaço entre o título e o parágrafo */
+  margin-bottom: 0; /* Remove a margem inferior do parágrafo */
+}
+
+.img-funciona1 
+{
+  max-width: 25%; /* Limita a largura da imagem */
+  margin-left: 3%; /* Espaço entre o texto e a imagem */
+  margin-right: 15%;
+}
+
+/* Fim da página como funciona */
+
+
+
+
+
+
+
+/* Rodapé */
+
+.footer 
+{
+  background-color: #507B5C;
+  color: #DEEEE8;
+  display: flex;
+  justify-content: space-between;
+  padding: 0.5% 5%;
+  font-family: "Plus Jakarta Sans", sans-serif;
+  align-items: center;
+}
+
+.footer-logo-social 
+{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 15px; /* Espaço entre o logo e as redes sociais */
+}
+
+.footer-logo img 
+{
+  width: 130px; /* Ajuste o tamanho conforme necessário */
+  height: auto;
+}
+
+.footer-links {
+  display: flex;
+  gap: 40px;
+}
+
+.footer-column h3 {
+  font-size: 16px;
+  font-weight: 700;
+  margin-bottom: 10px;
+}
+
+.footer-column ul {
+  list-style: none;
+  padding: 0;
+}
+
+.footer-column ul li {
+  margin-bottom: 8px;
+}
+
+.footer-column ul li a {
+  color: #DEEEE8;
+  text-decoration: none;
+  font-weight: 500;
+}
+
+.footer-column ul li a:hover {
+  text-decoration: underline;
+}
+
+.footer-social {
+  display: flex;
+  gap: 20px;
+  justify-content: center;
+}
+
+.footer-social a img {
+  width: 35px; /* Ajuste o tamanho conforme necessário */
+  height: 35px;
+}
+
+/* Fim do rodapé */
+
+
+
+/* Carrossel inicio  */
+
+
+@keyframes tonext {
+    75% {
+      left: 0;
+    }
+    95% {
+      left: 100%;
+    }
+    98% {
+      left: 100%;
+    }
+    99% {
+      left: 0;
+    }
+  }
+  
+  @keyframes tostart {
+    75% {
+      left: 0;
+    }
+    95% {
+      left: -300%;
+    }
+    98% {
+      left: -300%;
+    }
+    99% {
+      left: 0;
+    }
+  }
+  
+  @keyframes snap {
+    96% {
+      scroll-snap-align: center;
+    }
+    97% {
+      scroll-snap-align: none;
+    }
+    99% {
+      scroll-snap-align: none;
+    }
+    100% {
+      scroll-snap-align: center;
+    }
+  }
+  
+  * {
+    box-sizing: border-box;
+    scrollbar-width: 0px;
+  }
+  
+  *::-webkit-scrollbar {
+    width: 0;
+  }
+  
+  *::-webkit-scrollbar-track {
+    background: transparent;
+  }
+  
+  *::-webkit-scrollbar-thumb {
+    background: transparent;
+    border: none;
+  }
+  
+  * {
+    -ms-overflow-style: none;
+  }
+  
+  ol, li {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .carousel {
+    padding-top: 21%;
+    filter: drop-shadow(0 0 10px #0003);
+    perspective: 50px;
+  }
+  
+  .carousel__viewport {
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    display: flex;
+    overflow-x: scroll;
+    counter-reset: item;
+    scroll-behavior: smooth;
+    scroll-snap-type: x mandatory;
+  }
+  
+  .carousel__slide {
+    position: relative;
+    flex: 0 0 100%;
+    width: 50%;
+    background-color: #f99;
+    counter-increment: item;
+  }
+  
+  .carousel__slide:nth-child(even) {
+    background-color: #99f;
+  }
+  
+  .carousel__slide:before {
+    content: counter(item);
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate3d(-50%,-40%,70px);
+    color: #fff;
+    font-size: 2em;
+  }
+  
+  .carousel__snapper {
+    
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    scroll-snap-align: center;
+  }
+  
+  @media (hover: hover) {
+    .carousel__snapper {
+      animation-name: tonext, snap;
+      animation-timing-function: ease;
+      animation-duration: 4s;
+      animation-iteration-count: infinite;
+    }
+  
+    .carousel__slide:last-child .carousel__snapper {
+      animation-name: tostart, snap;
+    }
+  }
+  
+  @media (prefers-reduced-motion: reduce) {
+    .carousel__snapper {
+      animation-name: none;
+    }
+  }
+  
+  .carousel:hover .carousel__snapper,
+  .carousel:focus-within .carousel__snapper {
+    animation-name: none;
+  }
+  
+  .carousel__navigation {
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    text-align: center;
+  }
+  
+  .carousel__navigation-list,
+  .carousel__navigation-item {
+    display: inline-block;
+  }
+  
+  .carousel__navigation-button {
+    display: inline-block;
+    width: 1.5rem;
+    height: 1.5rem;
+    background-color: #333;
+    background-clip: content-box;
+    border: 0.25rem solid transparent;
+    border-radius: 50%;
+    font-size: 0;
+    transition: transform 0.1s;
+  }
+  
+  .carousel::before,
+  .carousel::after,
+  .carousel__prev,
+  .carousel__next {
+    position: absolute;
+    top: 0;
+    margin-top: 37.5%;
+    width: 4rem;
+    height: 4rem;
+    transform: translateY(-50%);
+    border-radius: 50%;
+    font-size: 0;
+    outline: 0;
+  }
+  
+  .carousel::before,
+  .carousel__prev {
+    left: -1rem;
+  }
+  
+  .carousel::after,
+  .carousel__next {
+    right: -1rem;
+  }
+  
+  .img-banner1
+  {
+    width: 100%;
+  }
+
+  .img-banner2
+  {
+    width: 100%;
+  }
+/* Carrossel fim */
+
+
+/*Tipografia*/
+.text-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: -1px;
+}
+
+
+.text-container h1 {
+  font-family: "Figtree", sans-serif;
+  font-size: 3.5vw;
+  font-optical-sizing: auto;
+  font-weight: 600;
+  font-style: normal;
+  color: #538769;
+  text-align: center;
+  margin-bottom: -2px;
+}
+
+.text-container p {
+  font-family: "Plus Jakarta Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 500;
+  font-style: normal;
+  color: #4B545B;
+  font-size: 1.5vw;
+  margin-left: 20px;
+  margin-right: 20px;
+}
+
+.centralizado {
+  text-align: center;
+  margin-top: 0px;
+}
+
+/*Estilo dos botões página para logar*/
+
+.botao-entrar {
+  display: flex;
+  justify-content: center; 
+  align-items: center; 
+  height: 90vh; 
+  margin: 0;
+  background-color: #f0f0f0; 
+}
+
+.button-container {
+  display: flex; 
+  gap: 20px; 
+  justify-content: center;
+  align-items: center;
+}
+
+.button {
+  width: 28.5vw; 
+  height: 28.5vw; 
+  background-color: #DEEEE8;
+  color: #538769;
+  display: flex; 
+  flex-direction: column; 
+  justify-content: center; 
+  align-items: center; 
+  border: none; 
+  border-radius: 10px; 
+  cursor: pointer; 
+  transition: background-color 0.3s; 
+  text-decoration: none;
+  margin-top: 30px;
+  margin-bottom: 20px;
+}
+
+.button:hover {
+  background-color: #96b3a2; 
+}
+
+.button i {
+  font-size: 24px; 
+  margin-bottom: 5px; 
+}
+
+.button p {
+  margin: 0; 
+  font-size: 11px; 
+}
+
+.responsive-icon {
+  width: 11.5vw;  
+  height: auto;   
+}
+
+.button h1 {
+  font-family: "Figtree", sans-serif; 
+  font-optical-sizing: auto;
+  font-weight: 600;
+  font-style: normal;
+  color: #538769;
+  text-align: center;
+  font-size: 2.5vw; 
+  margin-bottom: 0;
+}
+
+
+/*divisória*/ 
+
+.custom-divider {
+  height: 2px; 
+  background-color: #ccc; 
+  margin: 20px auto; 
+  width: 80%;
+}
+
+/*botoes pagina inicial (index)*/
+
+
+/* Estilos básicos do botão */
+.image-button {
+  display: inline-block; /* Para fazer o link agir como um botão */
+  cursor: pointer;
+  transition: transform 0.3s; /* Transição suave para o hover */
+}
+
+/* Ajustes na imagem do botão */
+.button-image {
+  width: 100px; /* Ajuste o tamanho conforme necessário */
+  height: auto;
+  display: block;
+}
+
+/* Efeito de hover */
+.image-button:hover .button-image {
+  transform: scale(1.1); /* Aumenta ligeiramente a imagem no hover */
+  filter: brightness(1.2); /* Torna a imagem mais brilhante no hover */
+}
