@@ -24,7 +24,51 @@
 </div>
 </head>
 
-
+<body>
+    <div class="container">
+      <!-- Filtro lateral -->
+      <aside class="sidebar">
+        <h2>Filtro</h2>
+        <input type="text" placeholder="Buscar por vagas, ONGs, endereços" class="search-bar">
+        <div class="filter-group">
+          <h3>Áreas de Interesse</h3>
+          <label><input type="checkbox"> Agricultura</label>
+          <label><input type="checkbox"> Conscientização</label>
+          <label><input type="checkbox"> Fauna e Flora</label>
+          <label><input type="checkbox"> Preservação</label>
+          <label><input type="checkbox"> Reciclagem</label>
+          <button class="show-more" onclick="toggleFilters('interesse')">Mostrar mais</button>
+          <div id="additional-interesse" class="additional-filters">
+            <label><input type="checkbox"> Conservação</label>
+            <label><input type="checkbox"> Bem-estar animal</label>
+          </div>
+        </div>
+        <!-- Adicione mais filtros semelhantes aqui -->
+      </aside>
+  
+      <!-- Seção principal -->
+      <main class="main-content">
+        <h1>Explore todas as oportunidades de voluntariado e faça parte de projetos inovadores</h1>
+        <section class="opportunities">
+          <div class="opportunity-card">
+            <img src="vagas.jpg" alt="Centro de Idosos">
+            <h2>Centro de Idosos Sagrada Familiar</h2>
+            <p>Ajude no cuidado e tratamento de pessoas idosas.</p>
+            <p class="details"><span>Educador Físico, Psicólogo(a), Costureira</span> | <span>8 horas/semana</span></p>
+          </div>
+          <!-- Repita outros cartões de oportunidades aqui -->
+          <button class="load-more">Ver mais vagas</button>
+        </section>
+      </main>
+    </div>
+  
+    <script>
+      function toggleFilters(group) {
+        const additionalFilters = document.getElementById('additional-' + group);
+        additionalFilters.style.display = additionalFilters.style.display === 'none' ? 'block' : 'none';
+      }
+    </script>
+  </body>
 
 
 <footer class="footer">
