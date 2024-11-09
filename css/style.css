@@ -837,4 +837,431 @@ body{
 .image-button:hover .button-image {
   transform: scale(1.1); /* Aumenta ligeiramente a imagem no hover */
   filter: brightness(1.2); /* Torna a imagem mais brilhante no hover */
+} 
+
+
+/*Tipografia*/
+.text-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: -1px;
 }
+
+
+.text-container h1 {
+  font-family: "Figtree", sans-serif;
+  font-size: 3.5vw;
+  font-optical-sizing: auto;
+  font-weight: 600;
+  font-style: normal;
+  color: #538769;
+  text-align: center;
+  margin-bottom: -2px;
+}
+
+.text-container p {
+  font-family: "Plus Jakarta Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 500;
+  font-style: normal;
+  color: #4B545B;
+  font-size: 1.5vw;
+  margin-left: 20px;
+  margin-right: 20px;
+}
+
+.centralizado {
+  text-align: center;
+  margin-top: 0px;
+}
+/*fim da Tipografia*/
+/*BOTOES faça parte da mudança! inicio - pag.-inicial*/
+
+.botao-entrar {
+  display: flex;
+  justify-content: center; 
+  align-items: center; 
+  height: 90vh; 
+  margin: 0;
+  background-color: #f0f0f0; 
+}
+
+.button-container {
+  display: flex; 
+  gap: 20px; 
+  justify-content: center;
+  align-items: center;
+}
+
+.button {
+  width: 28.5vw; 
+  height: 28.5vw; 
+  background-color: #DEEEE8;
+  color: #538769;
+  display: flex; 
+  flex-direction: column; 
+  justify-content: center; 
+  align-items: center; 
+  border: none; 
+  border-radius: 10px; 
+  cursor: pointer; 
+  transition: background-color 0.3s; 
+  text-decoration: none;
+  margin-top: 30px;
+  margin-bottom: 20px;
+}
+
+.button:hover {
+  background-color: #96b3a2; 
+}
+
+.button i {
+  font-size: 24px; 
+  margin-bottom: 5px; 
+}
+
+.button p {
+  margin: 0; 
+  font-size: 11px; 
+}
+
+.responsive-icon {
+  width: 11.5vw;  
+  height: auto;   
+}
+
+.button h1 {
+  font-family: "Figtree", sans-serif; 
+  font-optical-sizing: auto;
+  font-weight: 600;
+  font-style: normal;
+  color: #538769;
+  text-align: center;
+  font-size: 2.5vw; 
+  margin-bottom: 0;
+}
+
+
+/*divisória*/ 
+
+.custom-divider {
+  height: 2px; 
+  background-color: #ccc; 
+  margin: 20px auto; 
+  width: 80%;
+}
+
+/*BOTOES como voce quer transofrmar o mundo? inicio - pag.-inicial*/
+
+.image-button {
+  position: relative;
+  display: inline-block;
+  width: 20vw; 
+  height: auto;
+  overflow: hidden;
+  text-decoration: none;
+  cursor: pointer;
+  border-radius: 15px;
+  transition: transform 0.3s ease, filter 0.3s ease;
+}
+
+.button-image {
+  width: 100%;
+  height: auto;
+  display: block;
+  border-radius: 15px; /* Borda arredondada */
+}
+
+.overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(19, 85, 46, 0.8); /* Usando uma cor semi-transparente */
+  opacity: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: opacity 0.3s ease;
+  border-radius: 15px; /* Borda arredondada para seguir o formato da imagem */
+}
+
+.overlay-text {
+  font-family: "Figtree", sans-serif;
+  font-size: 2vw;
+  font-weight: 600;
+  color: #DEEEE8;
+  text-align: center;
+  margin-bottom: -2px;
+}
+
+.image-button:hover .overlay {
+  opacity: 1;
+}
+
+.grid-container {
+  display: flex;
+  flex-direction: column; /* Organiza as fileiras verticalmente */
+  justify-content: center; /* Centraliza as fileiras verticalmente */
+  align-items: center; /* Centraliza as fileiras horizontalmente */
+}
+
+.button-row {
+  display: flex;
+  justify-content: center; /* Centraliza os botões na linha */
+  gap: 20px; /* Espaçamento entre os botões */
+  margin-bottom: 20px; /* Espaçamento entre as linhas */
+}
+
+.button-grid-container {
+  display: flex;
+  flex-direction: column; /* Organiza as linhas verticalmente */
+  justify-content: center; /* Centraliza as linhas */
+  gap: 20px; /* Espaçamento entre as linhas */
+  max-width: 80vw; /* Largura máxima do contêiner */
+  margin: 0 auto; /* Centraliza o contêiner horizontalmente */
+}
+
+.button {
+  padding: 0px 5px;
+  font-size: 16px;
+}
+
+/*BOTOES como voce quer transofrmar o mundo? fim - pag.-inicial*/
+
+
+
+/*DADOS inicio -pag. inicial */
+.section-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 40px;
+}
+
+.content {
+  display: flex;
+  justify-content: space-around; /* Espaço uniforme entre os blocos */
+  align-items: center;
+  width: 100%; /* Usa a largura total disponível */
+  padding: 20px;
+  text-align: center;
+}
+
+.block {
+  flex: 1; /* Cada bloco ocupa espaço igual */
+  padding: 0 10px;
+  margin-top: 20px;
+}
+
+.block h1 {
+  font-family: "Figtree", sans-serif;
+  font-size: 2.5em;
+  font-weight: 600;
+  color: #538769;
+  margin: 0;
+}
+
+.block p {
+  font-family: "Plus Jakarta Sans", sans-serif;
+  font-size: 1em;
+  font-weight: 700;
+  color: #4B545B;
+  line-height: 1.4;
+  margin: 5px 0 0;
+}
+
+.box {
+    position: relative;
+    width: 1350px;
+    height: 358px;
+}
+
+.box .group {
+    position: fixed;
+    width: 1350px;
+    height: 358px;
+    top: 0;
+    left: 0;
+}
+
+.box .overlap-group-wrapper {
+    position: absolute;
+    width: 318px;
+    height: 358px;
+    top: 0;
+    left: 86px;
+}
+
+.box .overlap-group {
+    position: relative;
+    width: 312px;
+    height: 358px;
+    background-color: #deeee8;
+    border-radius: 10px;
+}
+
+.box .text-wrapper {
+    position: absolute;
+    width: 283px;
+    top: 77px;
+    left: 14px;
+    font-family: "Figtree-Light", Helvetica;
+    font-weight: 300;
+    color: var(--preto);
+    font-size: 16px;
+    letter-spacing: 0;
+    line-height: normal;
+}
+
+.box .image {
+    position: absolute;
+    width: 55px;
+    height: 55px;
+    top: 14px;
+    left: 14px;
+    object-fit: cover;
+}
+
+.box .div {
+    position: absolute;
+    top: 27px;
+    left: 79px;
+    font-family: "Figtree-Regular", Helvetica;
+    font-weight: 400;
+    color: var(--preto);
+    font-size: 24px;
+    letter-spacing: 0;
+    line-height: normal;
+}
+
+.box .fi-rs-eye {
+    position: absolute;
+    width: 24px;
+    height: 24px;
+    top: 319px;
+    left: 21px;
+}
+
+.box .text-wrapper-2 {
+    position: absolute;
+    top: 322px;
+    left: 51px;
+    font-family: "Figtree-Regular", Helvetica;
+    font-weight: 400;
+    color: #000000;
+    font-size: 15px;
+    letter-spacing: 0;
+    line-height: normal;
+    white-space: nowrap;
+}
+
+.box .overlap-wrapper {
+    position: absolute;
+    width: 318px;
+    height: 358px;
+    top: 0;
+    left: 519px;
+}
+
+.box .div-wrapper {
+    position: absolute;
+    width: 318px;
+    height: 358px;
+    top: 0;
+    left: 952px;
+}
+
+.box .fi-rs-angle-right-wrapper {
+    position: absolute;
+    width: 53px;
+    height: 53px;
+    top: 154px;
+    left: 1297px;
+    background-color: #252e2b;
+    border-radius: 26.5px;
+}
+
+.box .fi-rs-angle-right {
+    position: absolute;
+    width: 30px;
+    height: 30px;
+    top: 12px;
+    left: 12px;
+}
+
+.box .img-wrapper {
+    position: absolute;
+    width: 53px;
+    height: 53px;
+    top: 154px;
+    left: 0;
+    background-color: #252e2b;
+    border-radius: 26.5px;
+    transform: rotate(180deg);
+}
+
+.box .img {
+    position: absolute;
+    width: 30px;
+    height: 30px;
+    top: 11px;
+    left: 12px;
+    transform: rotate(-180deg);
+}
+
+
+
+/*PATROCINIO inicio pag.-inicial*/
+.logos-section h2 {
+font-family: "Figtree", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 700;
+    font-style: normal;
+    color: #538769;
+    text-align: center;
+  margin-bottom: 20px;
+}
+
+.logos-container {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin: 0 auto 20px auto; /* Centraliza cada linha e adiciona margem entre as filas */
+  gap: 10px;
+}
+
+.row-1 {
+  width: 900px; /* Primeira linha com 900px */
+}
+
+.row-2 {
+  width: 600px; /* Segunda linha com 600px */
+}
+
+.row-3 {
+  width: 400px; /* Terceira linha com 400px */
+}
+
+.logo {
+  max-width: 100%; /* Ajusta automaticamente ao tamanho do contêiner */
+  height: auto;
+  max-height: 80px; /* Limita a altura dos logos */
+}
+
+@media (max-width: 900px) {
+  .row-1 {
+    width: 100%; /* Preenche a largura total da tela em dispositivos menores */
+  }
+  .row-2 {
+    width: 100%;
+  }
+  .row-3 {
+    width: 100%;
+  }
+}
+
+/*PATROCINIO fim pag.-inicial*/
